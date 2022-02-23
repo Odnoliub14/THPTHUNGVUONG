@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trường THPT Hùng Vương</title>
+</head>
+<style>
+    nav {
+        height: 50px;
+        background: 100% 100%;
+        font-size: 22px;
+    }
+
+    h1 {
+        color: red;
+        text-align: center;
+        border: 3px solid black;
+        background-color: #E9D2FD;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+        padding: 0px;
+
+
+    }
+
+    body {
+        border: 3px;
+        padding: 0;
+        margin-left: 4cm;
+        margin-right: 4cm;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .anh1 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 700;
+        display: block;
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+
+
+
+    .menu>ul>li {
+        display: inline-block;
+        position: relative;
+    }
+
+
+
+    .menu>ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        background-color: #0963cc;
+        text-align: center;
+    }
+
+    .menu>ul>li>a {
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        color: white;
+        padding: 0 10px;
+        margin-left: 2cm;
+        line-height: 40px;
+        display: block;
+    }
+
+    .menu>ul>li>a:hover {
+        color: red;
+        background-color: white;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 0 1px gray;
+    }
+
+    .menu ul ul a {
+        display: block;
+        line-height: 30px;
+        color: orangered;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: larger;
+        padding: 0 10px;
+        background-color: aqua;
+    }
+
+    .menu>ul>li:hover>ul {
+        display: block;
+    }
+
+    .menu ul ul a:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .menu>ul>li>ul>li {
+        text-decoration: none;
+        background-color: white;
+        border: 1px orangered solid;
+
+    }
+
+    .menu>ul>li>ul>li:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    header {
+        background: url(img1.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 30%;
+    }
+
+    footer {
+        border-top: 5px double orangered;
+        line-height: 50px;
+        background-color: #0963cc;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+        color: white;
+    }
+
+    article {
+        width: 65%;
+        background-color: white;
+        float: left;
+        margin: 0px;
+    }
+
+    marquee {
+        font-size: 22px;
+        color: red;
+        font-weight: bold;
+    }
+
+    aside {
+        height: auto;
+        width: 35%;
+
+        float: right;
+    }
+
+    aside>.bang1 {
+        color: black;
+        text-align: justify;
+        font-size: 16px;
+        overflow: auto;
+        margin: 20px 10px 0 10px;
+
+    }
+
+    aside>.bang1>img:hover {
+        width: 250px;
+    }
+
+    aside>.bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    aside>.bang1>img {
+        width: 200px;
+        float: left;
+    }
+
+    aside>.bang1>a {
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    aside>.bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    marquee {
+        font-size: 22px;
+        color: blue;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+
+    </header>
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li> <a href="about.html">Giới thiệu</a></li>
+            <li> <a href="contact.html">Liên hệ</a></li>
+            <li> <a href="#">Tài nguyên</a>
+                <ul>
+                    <li>Bài giảng điện tử</li>
+                    <li>Thư viện ảnh</li>
+                    <li>Đề thi</li>
+
+                </ul>
+            </li>
+            <li><a href="faq.html">Hỏi đáp</a> </li>
+        </ul>
+    </nav>
+
+    <marquee>Chào mừng các bạn tới website của trường THPT Hùng Vương - Đơn vị anh hùng</marquee>
+    <article>
+        <p
+            style="color: white; text-align: center;font-size: 25px; margin-left: 2cm; margin-right: 2cm; background-color: orangered;">
+            TRƯỜNG THPT HÙNG VƯƠNG LINH HOẠT TRONG VIỆC TỔ CHỨC HÌNH THỨC DẠY VÀ HỌC ĐỂ THÍCH ỨNG VỚI ĐIỀU KIỆN DỊCH
+            BỆNH COVID - 19</p>
+        <p style="text-align: justify; margin-left: 1.5cm; margin-right: 1.5cm;  "> Nhận thấy điều kiện dạy
+            và học trong năm học 2021 - 2022 sẽ còn bị ảnh hưởng nghiêm trọng do dịch bệnh covid - 19, chính
+            vì vậy mà ngay từ đầu năm học Ban giám hiệu nhà trường đã phối hợp chặt chẽ cùng với các tổ
+            chuyên môn xây dựng kế hoạch, chương trình, bám sát trên nội dung, chương trình của Bộ giáo dục
+            đề ra để tổ chức dạy và học cho năm học 2021 - 2022. <br><br>
+
+            Ban giám hiệu nhà trường đã yêu cầu các tổ chuyên môn xây dựng kế hoạch năm học một cách tỉ mỉ,
+            chi tiết, cặn kẽ với các tình huống có thể xảy ra như : <br> <br>
+
+            - Tình huống một: không có dịch bệnh covid - 19 ở địa phương. <br><br>
+
+            - Tình huống hai: khi có dịch bệnh covid - 19 ở địa phương và xuất hiện các ca f1, f2 là giáo
+            viên, học sinh của nhà trường. <br><br>
+
+            - Tình huống ba: xuất hiện các ca f0 trong nhà trường, có dịch trong nhà trường. <br><br>
+
+            Với tình huống một, trên địa bàn địa phương không có dịch bệnh thì 100 % học sinh và giáo viên
+            sẽ tới trường giảng dạy và học tập trực tiếp. <br> <br>
+
+            Trong tình huống hai nếu địa phương có dịch bệnh dẫn tới xuất hiện các f1, f2 là các giáo viên
+            và học sinh nhà trường thì sẽ kết hợp song song giữa việc dạy học trực tiếp cho các đối tượng
+            không là các f1, f2 và dạy học trực tuyến cho các đối tượng là f1, f2. <br> <br>
+
+            Tình huống thứ ba, tình huống xấu nhất xảy ra là trong nhà trường xuất hiện dịch bệnh thì việc
+            dạy và học sẽ chuyển sang dạy và học trực tuyến 100% . <br> <br>
+
+            Ngay từ đầu năm học lãnh đạo nhà trường đã chỉ đạo tổ văn phòng chuẩn bị tốt nhất về cơ sở vật
+            chất như: phòng học, máy tính, đường truyền internet và các phương tiện kĩ thuật khác phục vụ
+            cho việc dạy và học; tổ chức tập huấn cho giáo viên sử dụng thành thạo phần mềm để dạy học trực
+            tuyến nếu có dịch bệnh xảy ra trong nhà trường hoặc khi Sở giáo dục, Bộ giáo dục yêu cầu chuyển
+            hình thức dạy và học.<br> <br>
+
+            Chính nhờ sự chuẩn bị kĩ lưỡng các điều kiện và lên các kịch bản để ứng phó với các tình huống
+            có thể xảy ra trong năm học 2021-2022 mà mọi hoạt động dạy và học của trường THPT Hùng Vương
+            luôn linh hoạt và thích ứng với mọi hoàn cảnh, điều kiện của dịch bệnh covid - 19.<br> <br>
+
+            Tháng 9 và tháng 10, trên địa bàn thị xã Phú Thọ chưa có dịch bệnh covid - 19 xuất hiện, nhà
+            trường đã tổ chức dạy và học cho giáo viên, học sinh, bằng hình thức giảng dạy và học tập trực
+            tiếp 100%, đồng thời tranh thủ thời gian vàng, Ban giám hiệu đã cho phép các tổ chuyên môn đẩy
+            nhanh chương trình các môn học bằng cách tăng thêm các giờ học chính khoá vào các buổi chiều lên
+            trước hai tuần.<br> <br>
+
+            Cuối tháng 10 và tháng 11, trên địa bàn thị xã Phú Thọ đã xuất hiện dịch bệnh covid – 19, có
+            trường hợp là f1, f2 là giáo viên và học sinh, nhà trường lập tức kích hoạt chương trình vừa dạy
+            trực tiếp vừa dạy trực tuyến để đảm bảo quyền lợi học tập cho học sinh, đảm bảo kế hoạch, chương
+            trình năm học và chất lượng giáo dục của nhà trường.<br> <br>
+
+            Đầu tháng 12, tình hình dịch bệnh ở Thị xã Phú Thọ căng thẳng, trong Trường xuất hiện các ca f0
+            là giáo viên và học sinh, ngay lập tức tình huống thứ ba đã được kích hoạt, đó là 100% giáo viên
+            và học sinh giảng dạy và học tập trực tuyến.<br> <br>
+
+            Chính vì có sự chuẩn bị chu đáo, kĩ lưỡng đồng thời lường trước được các tình huống có thể xảy
+            ra trong năm học 2021 - 2022 để từ đó ứng phó kịp thời mà đến nay, dù khu vực Thị xã Phú Thọ nói
+            chung, trong nhà trường nói riêng đang xuất hiện dịch covid - 19 với những diễn biến khá phức
+            tạp nhưng việc học tập của học sinh, giảng dạy của giáo viên không hề bị gián đoạn. Đặc biệt, kế
+            hoạch thực hiện chương trình giáo dục cũng như chất lượng giáo dục của nhà trường vẫn đảm bảo
+            theo yêu cầu, mục tiêu mà kế hoạch năm học đã đề ra.
+
+    </article>
+
+    <aside>
+        <div class="bang1">
+            <img class="anhnho" src="img7.jpg">
+            <a style="margin-top: 3cm;" href="covid.html">Trường THPT Hùng Vương tổ chức tiêm vaccin covid 19 cho toàn
+                bộ học sinh
+            </a> <br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="img8.jpg">
+            <a href="dkdichbenh.html">Trường THPT Hùng Vương linh hoạt trong việc tổ chức hình thức dạy và học để thích
+                ứng
+                với điều
+                kiện
+                dịch bệnh covid-19</a><br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="CDC01046.jpg">
+            <a href="kiyeu.html">Bộ ảnh kỉ yếu khóa K73 Lớp 12C trường THPT Hùng Vương</a><br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="img9.jpg">
+            <a href="">Kỉ niệm 75 năm thành lập trường THPT Hùng Vương</a><br><br><br>
+
+        </div>
+        <hr>
+        </div>
+
+        <div class="bang1">
+            <img class="anhnho" src="img4.jpg">
+            <a href="12c.html">Lớp 12C K73 Hùng vương </a><br><br><br>
+
+        </div>
+        <hr>
+
+
+
+    </aside>
+
+    <footer style="margin-top: 2cm;">ĐƠN VỊ CHỦ QUẢN: TRƯỜNG THPT HÙNG VƯƠNG <br>
+
+        Địa chỉ: Phường Hùng Vương - Thị xã Phú Thọ - Tỉnh Phú Thọ<br>
+
+        Điện thoại: 02103957888 <br>
+
+        Email: c3hungvuong.phutho@moet.edu.vn
+
+    </footer>
+</body>
+
+</html>

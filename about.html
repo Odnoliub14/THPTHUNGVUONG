@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trường THPT Hùng Vương</title>
+</head>
+
+<style>
+    nav {
+        height: 50px;
+        background: 100% 100%;
+        font-size: 22px;
+    }
+
+    h1 {
+        color: red;
+        text-align: center;
+        border: 3px solid black;
+        background-color: #E9D2FD;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+        padding: 0px;
+
+
+    }
+
+    body {
+        border: 3px;
+        padding: 0;
+        margin-left: 4cm;
+        margin-right: 4cm;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .anh1 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 700;
+        display: block;
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+
+
+
+    .menu>ul>li {
+        display: inline-block;
+        position: relative;
+    }
+
+
+
+    .menu>ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        background-color: #0963cc;
+        text-align: center;
+    }
+
+    .menu>ul>li>a {
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        color: white;
+        padding: 0 10px;
+        margin-left: 2cm;
+        line-height: 40px;
+        display: block;
+    }
+
+    .menu>ul>li>a:hover {
+        color: red;
+        background-color: white;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 0 1px gray;
+    }
+
+    .menu ul ul a {
+        display: block;
+        line-height: 30px;
+        color: orangered;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: larger;
+        padding: 0 10px;
+        background-color: aqua;
+    }
+
+    .menu>ul>li:hover>ul {
+        display: block;
+    }
+
+    .menu ul ul a:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .menu>ul>li>ul>li {
+        text-decoration: none;
+        background-color: white;
+        border: 1px orangered solid;
+
+    }
+
+    .menu>ul>li>ul>li:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    header {
+        background: url(img1.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 30%;
+    }
+
+    footer {
+        border-top: 5px double orangered;
+        line-height: 50px;
+        background-color: #0963cc;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+        color: white;
+    }
+
+    article {
+        width: 65%;
+        background-color: white;
+        float: left;
+        margin: 0px;
+    }
+
+    marquee {
+        font-size: 22px;
+        color: red;
+        font-weight: bold;
+    }
+
+    aside {
+        height: auto;
+        width: 35%;
+
+        float: right;
+    }
+
+    aside>.bang1 {
+        color: black;
+        text-align: justify;
+        font-size: 16px;
+        overflow: auto;
+        margin: 20px 10px 0 10px;
+
+    }
+
+    aside>.bang1>img:hover {
+        width: 250px;
+    }
+
+    aside>.bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    aside>.bang1>img {
+        width: 200px;
+        float: left;
+    }
+
+    aside>.bang1>a {
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    aside>.bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .tieude {
+        border: solid white 3px;
+        text-align: center;
+        font-size: 50px;
+
+
+        margin: 0 auto;
+        background-color: rgb(56, 56, 170);
+        color: aliceblue;
+    }
+
+    .anhben {
+        margin-top: 2cm;
+    }
+
+    .anh01 {
+        background-color: aliceblue;
+    }
+    
+
+</style>
+
+
+<body>
+    <header>
+       
+    </header>
+    <div></div>
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li> <a href="about.html">Giới thiệu</a></li>
+            <li> <a href="contact.html">Liên hệ</a></li>
+            <li> <a href="#">Tài nguyên</a>
+                <ul>
+                    <li>Bài giảng điện tử</li>
+                    <li>Thư viện ảnh</li>
+                    <li>Đề thi</li>
+
+                </ul>
+            </li>
+            <li><a href="faq.html">Hỏi đáp</a> </li>
+        </ul>
+    </nav>
+    <marquee>THPT Hùng Vương - TX Phú Thọ vinh dự kỉ niệm 75 năm ngày thành lập trường 1/12/1945 - 1/12/2021 </marquee>
+    <article>
+        <div style="background-color:rgb(247, 219, 183) ;">
+            <h1> Trường THPT Hùng Vương <br> (TX Phú Thọ: 75 năm một chặng đường lịch sử vẻ
+                vang)</h1>
+            <p>
+                <span style="font-size: 40px; font-weight: bold; color: #9D0005;">C</span>ách đây 75 năm, ngày 01 tháng
+                12
+                năm
+                1945, trường THPT Hùng Vương được thành lập, trường vinh dự được mang tên
+                vua Hùng dựng nước, là trường trung học đầu tiên của tỉnh Phú Thọ và là một trong 7 trường trung học
+                được
+                thành
+                lập sớm nhất ở nước ta, sau Cách mạng tháng Tám, là “bông hoa đầu mùa của nền giáo dục Cách mạng”.
+            </p>
+            <span class="anh1">
+                <img src="img2.jpg" width="60%">
+                <span style="background-color:#F2F2F2 ;color: rebeccapurple;">Ngày 01 tháng 12 năm 1945, trường THPT
+                    Hùng
+                    Vương
+                    được
+                    thành lập, trường vinh dự được mang tên vua Hùng dựng nước.</span>
+            </span>
+            <p>Được thành lập trong hoàn cảnh đất nước vừa thoát khỏi ách đô hộ thực dân Pháp, Trường THPT Hùng Vương là
+                ngôi
+                trường cấp 2 đầu tiên trên địa bàn tỉnh Phú Thọ, nơi khai sinh ra dân tộc người Việt. <br>
+
+                Lễ khai giảng tiến hành rất đơn giản trong một lớp học ở trường cấp I, có gần 40 học sinh và vài chục vị
+                đại
+                diện phụ huynh và cơ quan tới dự. Sau đó không đầy một tháng trường phải đình giảng vì quân của Quốc dân
+                Đảng và
+                quân ta lúc ấy mỗi bên đóng ở một khu vực trong thị xã gây xung đột, bắn lẫn nhau, nên an ninh không
+                được
+                đảm
+                bảo. Chính quyền ta tạm rút về Hưng Hóa, cũng muốn chuyển trường theo, song không tập hợp được học sinh
+                đành
+                phải tạm bế giảng.
+            </p>
+            <p>Chặng đượng 75 năm giam khổ và vẻ vang, những ngày đầu thành lập trường chỉ có một lớp đệ nhất bậc trung
+                học
+                với
+                hơn 30 học sinh và gần 10 thầy cô giáo. Kết thúc cuộc kháng chiến chống Pháp, trường đã có 20 lớp với
+                trên
+                700
+                học sinh cấp 2 và cấp 3. Năm học 2015 - 2016 trường đã phát triển tới 30 lớp với 1.140 học sinh và 85
+                giáo
+                viên,
+                cán bộ công nhân viên. Cũng từ mái trường này, năm 1982 đã thành lập Phân hiệu Năng khiếu Hùng Vương
+                (nay là
+                Trường THPT Chuyên Hùng Vương) và năm 1993, thành lập thêm Trường THPT Bán công Hùng Vương. <br>
+
+                Suốt chặng đường dài 75 năm, trải qua hai cuộc kháng chiến chống thực dân Pháp - chống đế quốc Mỹ,
+                trường đã
+                nhiều lần rời thị xã Phú Thọ sơ tán lên xã Yên Luật - huyện Hạ Hòa, rồi Văn Bán - huyện Cẩm Khê, có lúc
+                sơ
+                tán
+                vào xã Đông Thành, xã Thanh Hà - huyện Thanh Ba. <span style="background-color: #E9D2FD;">Qua bao nơi sơ
+                    tán,
+                    Trường vẫn trở về đứng chân, phát triển và trưởng thành tại thị xã Phú Thọ.</span> </p>
+            <span class="anh1">
+                <img src="img3.jpg" width="60%">
+                <span style="background-color:#F2F2F2 ;color: rebeccapurple;">Trải qua 75 năm chặng đường lịch sử,
+                    trường
+                    THPT
+                    Hùng
+                    Vương đã đạt được nhiều thành tựu của nhà nước.</span>
+            </span>
+            <p>Từ mái trường Hùng Vương, trên 4 vạn học sinh ra trường, đã và đang chiến đấu, lao động, công tác phục vụ
+                đất
+                nước. Hơn 5 nghìn học sinh đã gia nhập quân đội, gần 200 giáo viên – học sinh đã anh dũng hy sinh. Hàng
+                trăm
+                học
+                sinh Hùng Vương thuộc nhiều thế hệ đã trở thành những nhà hoạt động danh tiếng, có nhiều cống hiến xuất
+                sắc
+                trong các lĩnh vực chính trị, quân sự, kinh tế, khoa học, giáo dục, văn học - nghệ thuật… từ Trung ương
+                đến
+                địa
+                phương trong cả nước.</p>
+            <span class="anh1">
+                <img src="img5.jpg" width="60%">
+                <span style="background-color:#F2F2F2 ;color: rebeccapurple;">Tập thể giáo viên trường THPT Hùng Vương
+                    (TX
+                    Phú
+                    Thọ).</span>
+
+            </span>
+            <p>Trường THPT Hùng Vương đã được Nhà nước tặng 4 Huân chương Lao động, (1 hạng Ba, 1 hạng Nhì, 2 hạng Nhất)
+                và
+                Huân
+                chương Độc lập hạng Ba. Tháng 11 năm 2002 trường được Bộ Giáo dục và Đào tạo cấp bằng công nhận trường
+                THPT
+                đạt
+                Chuẩn Quốc gia giai đoạn 2001 – 2010 (là 1 trong 3 trường Chuẩn Quốc gia đầu tiên của bậc THPT trong cả
+                nước).
+                <br>
+
+                Tháng 5/2013 trường được UBND tỉnh cấp giấy chứng nhận là trường Chuẩn Quốc gia giai đoạn 2013 - 2018.
+                Ngày
+                29/7/2004 nhà trường được Nhà nước phong tặng danh hiệu "Anh hùng Lao động". Năm 2011, nhà trường được
+                Nhà
+                nước
+                tặng thưởng "Huân chương Độc lập hạng Ba". <br>
+
+                Kỷ niệm 75 năm ngày thành lập trường (1/12/1945 – 1/12/2020) trường Hùng Vương đã và đang hăng hái thi
+                đua
+                dạy
+                tốt, học tốt, nâng cao chất lượng giáo dục toàn diện, không ngừng đổi mới về giáo dục, đổi mới công tác
+                quản
+                lý
+                và kiểm tra đánh giá,… đẩy mạnh và phát huy công tác xã hội hóa giáo dục, phấn đấu để xứng đáng là
+                trường
+                chuẩn
+                quốc gia của bậc học THPT tỉnh, xứng đáng với danh hiệu: Trường học Anh hùng trên quê hương đất Tổ.
+            </p>
+        </div>
+    </article>
+
+    <aside>
+        <div class="bang1">
+            <img class="anhnho" src="img7.jpg">
+            <a style="margin-top: 3cm;" href="covid.html">Trường THPT Hùng Vương tổ chức tiêm vaccin covid 19 cho toàn bộ học sinh
+            </a> <br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="img8.jpg">
+            <a href="dkdichbenh.html">Trường THPT Hùng Vương linh hoạt trong việc tổ chức hình thức dạy và học để thích ứng với điều
+                kiện
+                dịch bệnh covid-19</a><br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="CDC01046.jpg">
+            <a href="kiyeu.html">Bộ ảnh kỉ yếu khóa K73 Lớp 12C trường THPT Hùng Vương</a><br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="img9.jpg">
+            <a href="75nam.html">Kỉ niệm 75 năm thành lập trường THPT Hùng Vương</a><br><br><br>
+
+        </div>
+        <hr>
+        </div>
+
+        <div class="bang1">
+            <img class="anhnho" src="img4.jpg">
+            <a href="12c.html">Lớp 12C K73 Hùng vương </a><br><br><br>
+
+        </div>
+        <hr>
+
+        <div class="tieude">
+            <span style="margin: 0 auto;">Thành tích</span>
+        </div>
+        <div class="anh01">
+            <div class="anhben">
+                <img src="img1.jfif" alt=""> <br>
+            </div>
+            <div class="anhben">
+                <img src="img3.jfif" alt=""> <br>
+            </div>
+            <div class="anhben">
+                <img src="img2.jfif" alt=""> <br>
+            </div>
+            <div class="anhben">
+                <img style="width: 270px; height: 190px;" src="img19.jpg" alt=""> <br>
+            </div>
+        </div>
+
+
+
+    </aside>
+  
+    <footer style="margin-top: 2cm;">ĐƠN VỊ CHỦ QUẢN: TRƯỜNG THPT HÙNG VƯƠNG <br>
+
+        Địa chỉ: Phường Hùng Vương - Thị xã Phú Thọ - Tỉnh Phú Thọ<br>
+
+        Điện thoại: 02103957888 <br>
+
+        Email: c3hungvuong.phutho@moet.edu.vn
+
+    </footer>
+</body>
+
+</html>

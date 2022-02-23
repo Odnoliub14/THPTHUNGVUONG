@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trường THPT Hùng Vương</title>
+</head>
+
+<style>
+    nav {
+        height: 50px;
+        background: 100% 100%;
+        font-size: 22px;
+    }
+
+    h1 {
+        color: red;
+        text-align: center;
+        border: 3px solid black;
+        background-color: #E9D2FD;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+        padding: 0px;
+
+
+    }
+
+    body {
+        border: 3px;
+        padding: 0;
+        margin-left: 4cm;
+        margin-right: 4cm;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .anh1 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 700;
+        display: block;
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+
+
+
+    .menu>ul>li {
+        display: inline-block;
+        position: relative;
+    }
+
+
+
+    .menu>ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        background-color: #0963cc;
+        text-align: center;
+    }
+
+    .menu>ul>li>a {
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        color: white;
+        padding: 0 10px;
+        margin-left: 2cm;
+        line-height: 40px;
+        display: block;
+    }
+
+    .menu>ul>li>a:hover {
+        color: red;
+        background-color: white;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 0 1px gray;
+    }
+
+    .menu ul ul a {
+        display: block;
+        line-height: 30px;
+        color: orangered;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: larger;
+        padding: 0 10px;
+        background-color: aqua;
+    }
+
+    .menu>ul>li:hover>ul {
+        display: block;
+    }
+
+    .menu ul ul a:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .menu>ul>li>ul>li {
+        text-decoration: none;
+        background-color: white;
+        border: 1px orangered solid;
+
+    }
+
+    .menu>ul>li>ul>li:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    header {
+        background: url(img1.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 30%;
+    }
+
+    footer {
+        border-top: 5px double orangered;
+        line-height: 50px;
+        background-color: #0963cc;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+        color: white;
+    }
+
+
+    marquee {
+        font-size: 22px;
+        color: blue;
+        font-weight: bold;
+        background-color: aliceblue;
+    }
+
+
+    p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .bang1 {
+        color: black;
+        text-align: justify;
+        font-size: 16px;
+        overflow: auto;
+        margin: 20px 10px 0 10px;
+    }
+
+    .bang1>img {
+        width: 200px;
+        float: left;
+    }
+
+    .bang1>img:hover {
+        width: 250px;
+    }
+
+    .bang1>a {
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+    }
+
+    .bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    .column {
+        width: 30%;
+        float: left;
+        margin-left: 1cm;
+
+    }
+
+    .sanPham {
+
+       
+        padding: 0px;
+        margin: 4px;
+        text-align: center;
+        
+    }
+
+    .sanPham img {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 1cm;
+        border-radius: 20px;
+        
+    }
+    .sanPham img:hover {
+       width: 105%;
+       height: 400px;
+   
+    }
+    iframe{
+        margin-left: 3cm;
+        width: 1000px;
+        height: 700px;
+    }
+</style>
+
+
+<body>
+    <header>
+
+    </header>
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li> <a href="about.html">Giới thiệu</a></li>
+            <li> <a href="contact.html">Liên hệ</a></li>
+            <li> <a href="#">Tài nguyên</a>
+                <ul>
+                    <li>Bài giảng điện tử</li>
+                    <li>Thư viện ảnh</li>
+                    <li>Đề thi</li>
+
+                </ul>
+            </li>
+            <li><a href="faq.html">Hỏi đáp</a> </li>
+        </ul>
+    </nav>
+    <marquee>75 năm ngày thành lập trường!!</marquee>
+
+    <iframe  src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTruongTHPTHungVuong%2Fvideos%2F934113753344907%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+    <br>
+    <div class="column">
+        <div class="sanPham">
+            <img src="img23.jpg" alt="">
+        </div>
+    </div>
+    <div class="column">
+        <div class="sanPham">
+            <img src="img21.jpg" alt="">
+        </div>
+    </div>
+    <div class="column">
+        <div class="sanPham">
+            <img src="img22.jpg" alt="">
+        </div>
+    </div>
+    <footer style="margin-top: 3cm;">ĐƠN VỊ CHỦ QUẢN: TRƯỜNG THPT HÙNG VƯƠNG <br>
+
+        Địa chỉ: Phường Hùng Vương - Thị xã Phú Thọ - Tỉnh Phú Thọ<br>
+
+        Điện thoại: 02103957888 <br>
+
+        Email: c3hungvuong.phutho@moet.edu.vn
+
+    </footer>
+</body>
+
+</html>

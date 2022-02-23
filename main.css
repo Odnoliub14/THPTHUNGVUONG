@@ -1,0 +1,209 @@
+body {
+  border: 3px;
+  padding: 0;
+  margin-left: 4cm;
+  margin-right: 4cm;
+}
+
+.menu > ul > li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu > ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  background-color: #0963cc;
+  text-align: center;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: larger;
+  color: white;
+  padding: 0 10px;
+  display: block;
+  line-height: 40px;
+  margin-left: 2cm;
+}
+.menu > ul > li > a:hover {
+  color: red;
+  background-color: white;
+}
+.menu ul ul {
+  position: absolute;
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  border-radius: 3px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 1px gray;
+}
+.menu ul ul a {
+  display: block;
+  line-height: 30px;
+  color: orangered;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-size: larger;
+  padding: 0 10px;
+  background-color: aqua;
+}
+.menu > ul > li:hover > ul {
+  display: block;
+}
+.menu ul ul a:hover {
+  background-color: orangered;
+  color: white;
+}
+.menu > ul > li > ul > li {
+  text-decoration: none;
+  background-color: white;
+  border: 1px orangered solid;
+}
+.menu > ul > li > ul > li:hover {
+  background-color: orangered;
+  color: white;
+}
+header {
+  background: url(img1.jpg) no-repeat;
+  background-size: 100% 100%;
+  height: 0px;
+  padding-bottom: 30%;
+}
+
+article {
+  width: 65%;
+  background-color: white;
+  float: left;
+}
+
+nav {
+  height: 50px;
+  background: 100% 100%;
+  font-size: 22px;
+}
+
+aside {
+  height: auto;
+  width: 35%;
+  background-color: white;
+  float: right;
+}
+marquee {
+  font-size: 22px;
+  color: blue;
+  font-weight: bold;
+}
+footer {
+  border-top: 5px double orangered;
+  line-height: 50px;
+  background-color: #0963cc;
+  text-align: center;
+  font-variant: small-caps;
+  clear: both;
+  color: white;
+}
+
+.bang1 {
+  color: black;
+  text-align: justify;
+  font-size: 16px;
+  overflow: auto;
+  margin: 20px 10px 0 10px;
+}
+aside>.bang1>.anhnho>a{
+  font-weight: bold;
+}
+aside > .bang1 > img {
+  width: 200px;
+  float: left;
+}
+aside > .bang1 > img:hover {
+  width: 250px;
+}
+aside > .bang1 > a {
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+aside > .bang1 > a:hover {
+  color: black;
+  background-color: rgb(247, 165, 136);
+  font-size: 20px;
+}
+
+iframe {
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+}
+
+/* Nút Để Mở Chatbox */
+ .nut-mo-chatbox {
+   background-color: blueviolet;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   opacity: 0.8;
+   position: fixed;
+   bottom: 23px;
+   right: 28px;
+   width: 280px;
+ }
+/* Ẩn chatbox mặc định */
+.Chatbox {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+/* Thêm style cho form */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+/* thiết lập style textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+/*thiết lập style cho textarea khi được focus */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Thiết lập style cho nút trong form*/
+.form-container .btn {
+  background-color: yellowgreen;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}/* Thiết lập màu nền cho nút đóng chatbox */
+.form-container .nut-dong-chatbox {
+  background-color: red;
+}
+/* Thêm hiệu ứng hover cho nút*/
+.form-container .btn:hover, .nut-mo-chatbox:hover {
+  opacity: 1;
+}
+/*Hàm Mở Form*/
+

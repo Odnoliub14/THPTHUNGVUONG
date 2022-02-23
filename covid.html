@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trường THPT Hùng Vương</title>
+</head>
+<style>
+    nav {
+        height: 50px;
+        background: 100% 100%;
+        font-size: 22px;
+    }
+
+    h1 {
+        color: red;
+        text-align: center;
+        border: 3px solid black;
+        background-color: #E9D2FD;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+        padding: 0px;
+
+
+    }
+
+    body {
+        border: 3px;
+        padding: 0;
+        margin-left: 4cm;
+        margin-right: 4cm;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .anh1 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 700;
+        display: block;
+        margin-left: 2cm;
+        margin-right: 2cm;
+    }
+
+
+
+    .menu>ul>li {
+        display: inline-block;
+        position: relative;
+    }
+
+
+
+    .menu>ul {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        background-color: #0963cc;
+        text-align: center;
+    }
+
+    .menu>ul>li>a {
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        color: white;
+        padding: 0 10px;
+        margin-left: 2cm;
+        line-height: 40px;
+        display: block;
+    }
+
+    .menu>ul>li>a:hover {
+        color: red;
+        background-color: white;
+    }
+
+    .menu ul ul {
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 0 1px gray;
+    }
+
+    .menu ul ul a {
+        display: block;
+        line-height: 30px;
+        color: orangered;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: larger;
+        padding: 0 10px;
+        background-color: aqua;
+    }
+
+    .menu>ul>li:hover>ul {
+        display: block;
+    }
+
+    .menu ul ul a:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    .menu>ul>li>ul>li {
+        text-decoration: none;
+        background-color: white;
+        border: 1px orangered solid;
+
+    }
+
+    .menu>ul>li>ul>li:hover {
+        background-color: orangered;
+        color: white;
+    }
+
+    header {
+        background: url(img1.jpg) no-repeat;
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 30%;
+    }
+
+    footer {
+        border-top: 5px double orangered;
+        line-height: 50px;
+        background-color: #0963cc;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+        color: white;
+    }
+
+    article {
+        width: 65%;
+        background-color: white;
+        float: left;
+        margin: 0px;
+    }
+
+    marquee {
+        font-size: 22px;
+        color: red;
+        font-weight: bold;
+    }
+
+    aside {
+        height: auto;
+        width: 35%;
+
+        float: right;
+    }
+
+    aside>.bang1 {
+        color: black;
+        text-align: justify;
+        font-size: 16px;
+        overflow: auto;
+        margin: 20px 10px 0 10px;
+
+    }
+
+    aside>.bang1>img:hover {
+        width: 250px;
+    }
+
+    aside>.bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    aside>.bang1>img {
+        width: 200px;
+        float: left;
+    }
+
+    aside>.bang1>a {
+        text-align: left;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+    }
+
+    aside>.bang1>a:hover {
+        color: black;
+        background-color: rgb(247, 165, 136);
+        font-size: 20px;
+    }
+
+    marquee {
+        font-size: 22px;
+        color: blue;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <header>
+
+    </header>
+    <nav class="menu">
+        <ul>
+            <li> <a href="index.html">Trang chủ</a></li>
+            <li> <a href="about.html">Giới thiệu</a></li>
+            <li> <a href="contact.html">Liên hệ</a></li>
+            <li> <a href="#">Tài nguyên</a>
+                <ul>
+                    <li>Bài giảng điện tử</li>
+                    <li>Thư viện ảnh</li>
+                    <li>Đề thi</li>
+
+                </ul>
+            </li>
+            <li><a href="faq.html">Hỏi đáp</a> </li>
+        </ul>
+    </nav>
+
+    <marquee>Chào mừng các bạn tới website của trường THPT Hùng Vương - Đơn vị anh hùng</marquee>
+    <article>
+        <p
+            style="color: blue; text-align: center;font-size: 25px; margin-top: 2cm; margin-left: 2cm; margin-right: 2cm; background-color: aquamarine;">
+            TRƯỜNG THPT HÙNG VƯƠNG TIÊM VẮC- XIN MŨI 2 CHO HỌC SINH</p>
+        <p style="text-align: justify; margin-left: 1.5cm; margin-right: 1.5cm;  ">    Ngày 27/12/2021 Trung tâm y tế Thị xã Phú
+            Thọ đã triển khai tiêm vắc- xin phòng covid-19 cho 1239 học sinh. Vắc- xin được sử dụng là loại Pfizer, loại
+            dành cho trẻ em từ 12 đến dưới 18 tuổi. Tất cả học sinh 3 khối lớp 10, 11, 12 đủ điều kiện đều đã được tiêm
+            phòng bệnh Covid- 19 mũi 2. <br> <br>
+
+            Thực hiện kế hoạch tiêm phủ vắc- xin phòng covid-19 cho tất cả các đối tượng từ 12 đến 17 tuổi trên địa bàn,
+            trường THPT Hùng Vương đã phối hợp với Trung tâm y tế Thị xã Phú Thọ chuẩn bị tốt các điều kiện CSVC và ổn
+            định về tâm lý cho học sinh, cha mẹ học sinh để tổ chức tiêm phòng cho hơn 1000 học sinh nhà trường trong
+            thời gian quy định. <br> <br>
+
+            Ngay sau khi nhận được kế hoạch của UBND Thị xã Phú Thọ, của Trung tâm y tế Thị xã Phú Thọ nhà trường đã
+            khẩn trương triển khai cho học sinh đăng ký tiêm, làm tốt công tác tuyên truyền để học sinh, cha mẹ học sinh
+            nhận thức rõ tầm quan trọng của việc tiêm vắc – xin trong cuộc chiến chống đại dịch Covid- 19 và thực hiện
+            tiêm phòng đầy đủ. Nhà trường đã thông tin đến học sinh và cha mẹ học sinh hoàn thành phiếu đăng ký tiêm vắc
+            xin, đặc biệt là đảm bảo đủ thông tin xác nhận của CMHS hoặc người giám hộ. Đồng thời Nhà trường cũng thông
+            tin, trao đổi với CMHS, căn dặn học sinh về việc chuẩn bị tốt nhất về sức khỏe, về tâm lý và đảm bảo các
+            điều kiện chăm sóc bản thân trước và sau khi tiêm phòng. Ban đại diện cha mẹ học sinh các lớp đều cử đại
+            diện cùng GVCN theo dõi, hỗ trợ và chăm sóc học sinh trước, trong và sau khi tiêm phòng. <br><br>
+
+            Với sự chuẩn bị chu đáo, với sự nỗ lực trách nhiệm và năng lực chuyên môn vững vàng của đội ngũ y, bác sỹ
+            thuộc Trung tâm y tế Thị xã Phú Thọ, cùng với công tác tổ chức khoa học, chu đáo của Nhà trường, sự phối kết
+            hợp chặt chẽ của CMHS, kế hoạch tiêm vắc- xin phòng covid-19 mũi 2 cho học sinh trường THPT Hùng Vương đã
+            hoàn thành, không có học sinh nào bị sốc sau tiêm. Các em học sinh đều được gia đình theo dõi và chăm sóc
+            sức khỏe sau tiêm an toàn.</p>
+    </article>
+
+    <aside>
+        <div class="bang1">
+            <img class="anhnho" src="img7.jpg">
+            <a style="margin-top: 3cm;" href="covid.html">Trường THPT Hùng Vương tổ chức tiêm vaccin covid 19 cho toàn
+                bộ học sinh
+            </a> <br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="img8.jpg">
+            <a href="dkdichbenh.html">Trường THPT Hùng Vương linh hoạt trong việc tổ chức hình thức dạy và học để thích ứng với điều
+                kiện
+                dịch bệnh covid-19</a><br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="CDC01046.jpg">
+            <a href="kiyeu.html">Bộ ảnh kỉ yếu khóa K73 Lớp 12C trường THPT Hùng Vương</a><br><br><br>
+
+        </div>
+        <hr>
+        <div class="bang1">
+            <img class="anhnho" src="img9.jpg">
+            <a href="">Kỉ niệm 75 năm thành lập trường THPT Hùng Vương</a><br><br><br>
+
+        </div>
+        <hr>
+        </div>
+
+        <div class="bang1">
+            <img class="anhnho" src="img4.jpg">
+            <a href="12c.html">Lớp 12C K73 Hùng vương </a><br><br><br>
+
+        </div>
+        <hr>
+
+
+
+    </aside>
+
+    <footer style="margin-top: 2cm;">ĐƠN VỊ CHỦ QUẢN: TRƯỜNG THPT HÙNG VƯƠNG <br>
+
+        Địa chỉ: Phường Hùng Vương - Thị xã Phú Thọ - Tỉnh Phú Thọ<br>
+
+        Điện thoại: 02103957888 <br>
+
+        Email: c3hungvuong.phutho@moet.edu.vn
+
+    </footer>
+</body>
+
+</html>
